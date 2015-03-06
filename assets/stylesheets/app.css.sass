@@ -66,6 +66,9 @@ h1
   letter-spacing: -2px
   text-transform: uppercase
   line-height: 100%
+  &.small-header
+    font-weight: normal
+    font-size: 50px
 
 h2
   font-size: 16px
@@ -319,7 +322,7 @@ footer
 
 .button
   display: inline-block
-  padding: 10px 10px
+  padding: 10px 20px
   background: $purple
   color: white
   border-radius: 5px
@@ -332,6 +335,12 @@ footer
   transition-delay: 0.2s
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26)
   margin-bottom: 3px
+
+.books
+  .book
+    display: inline-block
+    vertical-align: top
+    width: 24%
 
 .team
   .section-content
@@ -415,17 +424,11 @@ footer
 .blog
   .section-content
     text-align: center
-    max-width: 550px
+    max-width: 660px
     position: relative
     .blog-entry
-      margin-bottom: 10px
-      &:last-child
-        margin-bottom: 0px
-    .item-heading.large-heading
-      margin-bottom: 2px
-      a
-        font-weight: 700
-        color: rgba(0,0,0,0.8)
+      margin-bottom: 20px
+      text-align: left
 
 .jobs
   .section-content
