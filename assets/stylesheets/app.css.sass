@@ -3,6 +3,8 @@
 @import "compass/utilities"
 @import "compass/css3"
 
+$purple: #32004b
+
 body
   padding: 0px
   margin: 0px
@@ -90,17 +92,19 @@ section:eq(2)
 
 section
   padding: 80px 0px
+  &.purple-section
+    background: #f3f0f4
   .section-content
     max-width: 950px
     padding: 0px 20px
     margin: 0px auto
   .border
-    width: 30px
+    width: 130px
     margin: 0px auto
     display: block
-    background: #333
     height: 3px
     margin-bottom: 30px
+    background: $purple
 
 header
   top: 0px
@@ -113,17 +117,11 @@ header
   a
     color: rgba(0,0,0,0.8)
     display: inline-block
-    padding: 0 5px
-
-.pre-footer
-  padding: 30px 44px
-  text-align: center
-  .footer-heading
+    padding: 0px
+    margin: 0px 10px
     font-family: "montserrat", sans-serif
     letter-spacing: 1px
-    margin-bottom: 4px
-  img
-    height: 80px
+    line-height: 150%
 
 footer
   text-align: center
@@ -134,30 +132,30 @@ footer
 .wrapper
   margin: 0px auto
 
-.foreground
-  max-width: 800px
-  padding: 0px 20px
-  margin: 0px auto
+.separate
+  background: $purple
+  height: 20px
+  width: 100%
 
-.hero-unit
+.hero-unit, .large-footer
   position: relative
-  padding: 0px 0px 109px 0px
+  padding-bottom: 50px
   text-align: center
-  background-size: cover
-  background-repeat: no-repeat
-  background-position: top center
-  z-index: 3
   h1
-    font-size: 69px
     padding-top: 71px
-    margin-bottom: 1px
+    margin-bottom: 10px
+    font-weight: normal
+    text-transform: none
   h1, h3, .border
     z-index: 2
     position: relative
   h3
     margin: 0px auto
-    margin-bottom: 20px
-    font-size: 18px
+    font-size: 24px
+    font-weight: normal
+    text-transform: none
+    max-width: 533px
+    margin-top: 20px
   .border
     width: 38px
     margin: 0 auto
@@ -165,6 +163,18 @@ footer
     margin-bottom: 10px
     margin-top: 10px
     background: white
+  p
+    margin-left: auto
+    margin-right: auto
+    max-width: 533px
+    text-align: left
+
+.large-footer
+  .portrait
+    margin-bottom: 20px
+  h1
+    font-size: 48px
+
 
 .more-info
   .section-content
@@ -173,6 +183,9 @@ footer
       +column-count(3)
       +column-width(180px)
       margin: 0px auto
+      font-size: 16px
+      a
+        color: black
     .info-section-group
       margin-bottom: 20px
       .info-section
@@ -197,17 +210,19 @@ footer
 
 .item-subheading
   font-size: 14px
-  line-height: 144%
   text-align: left
+  line-height: 144%
   &.large-subheading
     font-size: 16px
 
-.item-supheading
+.small-note, .item-supheading
   font-size: 14px
   font-style: italic
   color: #8B8989
-  margin-top: -6px
+
+.item-supheading
   text-align: left
+  margin-top: -8px
 
 .case-studies
   text-align: center
@@ -233,6 +248,25 @@ footer
       background-position: top center
       margin-bottom: 10px
 
+.font-heading
+  color: $purple
+  margin-bottom: 10px
+
+.more-section-group
+  text-align: center
+  .more-section
+    width: 30%
+    display: inline-block
+    vertical-align: top
+    margin: 0px 2% 17px
+    &:first-child
+      margin-left: 0px
+    &:last-child
+      margin-left: 0px
+    .item-heading
+      margin-bottom: 5px
+      text-align: center
+
 .talks
   text-align: center
   .section-content
@@ -253,6 +287,51 @@ footer
       margin-right: 2%
     &:last-child
       margin-left: 2%
+
+.section-do
+  +clearfix
+  padding: 50px 0px 0px
+  .button
+    margin-top: 58px
+  .large-heading
+    font-weight: normal
+    text-transform: none
+    font-size: 36px
+  .left, .right
+    width: 50%
+    display: inline-block
+    vertical-align: top
+  .right
+    float: right
+    text-align: center
+  &.third-size
+    padding: 0px
+    .left
+      width: 33%
+      .button
+        margin-top: 10px
+      .item-description
+        font-size: 18px
+    .right
+      width: 66%
+
+
+
+.button
+  display: inline-block
+  padding: 10px 10px
+  background: $purple
+  color: white
+  border-radius: 5px
+  font-family: "montserrat", sans-serif
+  letter-spacing: 1px
+  line-height: 150%
+  text-transform: uppercase
+  cursor: pointer
+  transition: box-shadow 0.2s cubic-bezier(0.4, 0, 0.2, 1)
+  transition-delay: 0.2s
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26)
+  margin-bottom: 3px
 
 .team
   .section-content
@@ -288,7 +367,7 @@ footer
 .about
   .section-content
     p
-      max-width: 650px
+      max-width: 550px
       margin: 0px auto 20px
   .about-video
     text-align: center
@@ -296,8 +375,13 @@ footer
       height: 344px
       width: 611px
       margin: 50px auto
+  h3
+    margin-top: 30px
+    margin-bottom: 20px
   .about-section-group
     margin-top: 20px
+    max-width: 600px
+    margin: 0px auto
     .about-section
       border-bottom: 1px solid rgb(236, 236, 236)
       padding: 15px 0px
@@ -308,20 +392,30 @@ footer
         border-bottom: 0px solid
       .item-heading
         margin-bottom: 7px
-        width: 30%
+        width: 20%
         padding-right: 0%
         display: inline-block
         vertical-align: top
+        text-align: right
       .item-subheading
-        width: 65%
+        width: 75%
         margin-left: 4%
         display: inline-block
         vertical-align: top
 
+.portrait
+  background-image: url('/assets/images/dr-bill-moore.png')
+  background-size: cover
+  background-position: center center
+  width: 200px
+  height: 200px
+  border-radius: 100%
+  margin: 0px auto
+
 .blog
   .section-content
     text-align: center
-    max-width: 450px
+    max-width: 550px
     position: relative
     .blog-entry
       margin-bottom: 10px
@@ -356,49 +450,6 @@ footer
       padding-top: 0px
       border-top: 0px solid
 
-.single-page
-  padding: 140px 0px
-  h1
-    font-size: 59px
-  .section-content
-    max-width: 960px
-    .company-images
-      margin-bottom: 20px
-      .post-it
-        width: 500px
-        vertical-align: top
-        margin-bottom: 10px
-      .streets
-        margin-top: 95px
-        width: 315px
-        float: right
-      .war-room
-        width: 388px
-        float: right
-        margin-top: -38px
-        margin-right: 20px
-        margin-left: 52px
-        margin-bottom: 25px
-    .smaller-content
-      max-width: 640px
-      margin: 0px auto
-    .job-listing
-      max-width: 100%
-      padding: 22px 0px 30px
-      font-size: 19px
-      h3
-        margin-bottom: 30px
-        a
-          color: black
-      &:first-child
-        padding-top: 40px
-      &:last-child
-        border-bottom: 0px solid
-
-.more-link
-  color: black
-  margin-top: 20px
-
 .faux-underline-large
   &
     display: inline-block
@@ -417,21 +468,3 @@ footer
 
   &:hover
     text-decoration: none
-
-.instagram-feed
-  width: 100%
-  overflow: hidden
-  white-space: nowrap
-  height: 150px
-  a
-    display: inline-block
-  img
-    width: initial
-    +opacity(0.2)
-    &:hover
-      +opacity(1)
-
-.twitter-link
-  img
-    height: 54px
-    margin-bottom: 85px
