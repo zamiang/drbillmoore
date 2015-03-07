@@ -13,7 +13,7 @@ to this repository.
 ## Editing content
 
 The site is simply a group of markdown files that get combined with some
-html to form a website.
+html to form a website. Simply edit the html and commit the changes.
 
 ### Adding images
 
