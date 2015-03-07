@@ -23,7 +23,7 @@ site without writing any code. You basically create a new Github Issue
 and upload the image there. Copy the url from the image and use the url for
 something like a new team member's image.
 
-## Editing the ea1.co code
+## Editing the code
 
 If you would like to edit something else such as the CSS or
 Javascript, first clone this repository. Then `cd` into the directory
