@@ -67,7 +67,7 @@ h1 {
     font-size: 50px; }
 
 h2 {
-  font-size: 15px;
+  font-size: 16px;
   letter-spacing: 1px;
   font-family: "adobe-garamond-pro", Georgia, Cambria, "Times New Roman", Times, serif;
   -webkit-font-smoothing: antialiased;
@@ -115,7 +115,7 @@ header {
   padding-top: 15px;
   text-align: center;
   text-transform: uppercase;
-  font-size: 15px;
+  font-size: 16px;
   color: #ccc; }
   header a {
     color: rgba(0, 0, 0, 0.8);
@@ -129,7 +129,7 @@ header {
 footer {
   text-align: center;
   padding: 10px 20px;
-  font-size: 15px;
+  font-size: 16px;
   color: #6f6f6f; }
 
 .wrapper {
@@ -219,7 +219,7 @@ footer {
   font-family: "adobe-garamond-pro", Georgia, Cambria, "Times New Roman", Times, serif;
   font-weight: 800;
   text-transform: uppercase;
-  font-size: 15px;
+  font-size: 16px;
   line-height: 148%;
   text-align: left; }
   .item-heading.large-heading {
@@ -228,12 +228,12 @@ footer {
     margin-bottom: 7px; }
 
 .item-subheading {
-  font-size: 18px;
+  font-size: 16px;
   text-align: left;
   line-height: 144%; }
 
 .small-note, .item-supheading {
-  font-size: 15px;
+  font-size: 16px;
   font-style: italic;
   color: #8B8989; }
 
@@ -313,7 +313,7 @@ footer {
     padding-top: 0px; }
   .section-do .button {
     margin-top: 77px;
-    font-size: 15px; }
+    font-size: 16px; }
   .section-do .large-heading {
     font-family: "adobe-garamond-pro", Georgia, Cambria, "Times New Roman", Times, serif;
     -webkit-font-smoothing: antialiased;
