@@ -4,20 +4,32 @@
 @import "compass/css3"
 
 $purple: #32004b
+$small-font-size: 15px
+$base-font-size: 18px
+$large-heading-size: 51px
+$heading-size: 30px
+
+@mixin body-font
+  font-family: "adobe-garamond-pro", Georgia, Cambria, "Times New Roman", Times, serif
+  -webkit-font-smoothing: antialiased
+  -moz-osx-font-smoothing: grayscale
+  font-smoothing: antialiased
+  font-weight: 400
+
+@mixin heading-font
+  font-family: "franklin-gothic-urw", sans-serif
+  font-weight: 400
+  letter-spacing: 1px
 
 body
   padding: 0px
   margin: 0px
-  font-family: 'Lora', Arial, Helvetica, sans-serif
   letter-spacing: 0.01rem
-  font-weight: 400
   font-style: normal
-  font-size: 18px
+  font-size: $base-font-size
+  +body-font
   line-height: 1.6em
   text-rendering: optimizeLegibility
-  -webkit-font-smoothing: antialiased
-  -moz-osx-font-smoothing: grayscale
-  font-smoothing: antialiased
   color: rgba(0,0,0,0.8)
   a
     color: #39c
@@ -56,9 +68,7 @@ ol:last-child, p:last-child
 
 h1, h3
   line-height: 148%
-  font-weight: normal
-  font-family: "montserrat", sans-serif
-  font-weight: 700
+  +heading-font
 
 h1
   font-size: 59px
@@ -67,21 +77,21 @@ h1
   text-transform: uppercase
   line-height: 100%
   &.small-header
-    font-weight: normal
+    +body-font
     font-size: 50px
 
 h2
-  font-size: 16px
+  font-size: $small-font-size
   letter-spacing: 1px
-  font-weight: normal
+  +body-font
 
 h3
   margin-bottom: 10px
   text-align: center
   color: rgba(0,0,0,0.8)
+  font-size: $heading-size
 
 a
-  font-weight: 400
   text-decoration: none
 
 a, a:active, a:focus
@@ -115,21 +125,20 @@ header
   padding-top: 15px
   text-align: center
   text-transform: uppercase
-  font-size: 14px
+  font-size: $small-font-size
   color: #ccc
   a
     color: rgba(0,0,0,0.8)
     display: inline-block
     padding: 0px
     margin: 0px 10px
-    font-family: "montserrat", sans-serif
-    letter-spacing: 1px
+    +heading-font
     line-height: 150%
 
 footer
   text-align: center
   padding: 10px 20px
-  font-size: 12px
+  font-size: $small-font-size
   color: #6f6f6f
 
 .wrapper
@@ -147,15 +156,14 @@ footer
   h1
     padding-top: 71px
     margin-bottom: 15px
-    font-weight: normal
     text-transform: none
+    +body-font
   h1, h3, .border
     z-index: 2
     position: relative
   h3
     margin: 0px auto
-    font-size: 24px
-    font-weight: normal
+    +body-font
     text-transform: none
     max-width: 533px
     margin-top: 20px
@@ -178,7 +186,7 @@ footer
   h1
     font-size: 48px
     &.small-width
-      width: 500px
+      max-width: 376px
       margin-left: auto
       margin-right: auto
       margin-bottom: 30px
@@ -192,9 +200,10 @@ footer
       +column-count(3)
       +column-width(180px)
       margin: 0px auto
-      font-size: 16px
       a
         color: black
+      .client
+        margin-bottom: 3px
       .faux-underline-large::before
         border-bottom: 1px solid #333
 
@@ -209,10 +218,9 @@ footer
           width: 93%
 
 .item-heading
-  font-family: "montserrat", sans-serif
-  font-weight: 700
+  +heading-font
   text-transform: uppercase
-  font-size: 13px
+  font-size: $small-font-size
   line-height: 148%
   text-align: left
   &.large-heading
@@ -221,14 +229,12 @@ footer
     margin-bottom: 7px
 
 .item-subheading
-  font-size: 14px
+  font-size: $base-font-size
   text-align: left
   line-height: 144%
-  &.large-subheading
-    font-size: 16px
 
 .small-note, .item-supheading
-  font-size: 14px
+  font-size: $small-font-size
   font-style: italic
   color: #8B8989
 
@@ -306,12 +312,12 @@ footer
   &:last-child
     padding-top: 0px
   .button
-    margin-top: 58px
-    font-size: 15px
+    margin-top: 77px
+    font-size: $small-font-size
   .large-heading
-    font-weight: normal
+    +body-font
     text-transform: none
-    font-size: 36px
+    font-size: $large-heading-size
     line-height: 117%
     margin-bottom: 13px
   .left, .right
@@ -328,13 +334,13 @@ footer
       .button
         margin-top: 10px
       .item-description
-        font-size: 18px
+        font-size: $base-font-size
     .right
       width: 66%
 
   &.last
     .button
-      margin-top: 100px
+      margin-top: 133px
 
 .button
   display: inline-block
@@ -342,8 +348,7 @@ footer
   background: $purple
   color: white
   border-radius: 5px
-  font-family: "montserrat", sans-serif
-  letter-spacing: 1px
+  +heading-font
   line-height: 150%
   text-transform: uppercase
   cursor: pointer
@@ -403,6 +408,10 @@ footer
   h3
     margin-top: 30px
     margin-bottom: 20px
+    font-size: 30px
+    text-transform: uppercase
+    &.small
+      font-size: 22px
   .about-section-group
     margin-top: 20px
     max-width: 720px
@@ -417,12 +426,12 @@ footer
         border-bottom: 0px solid
       .item-heading
         margin-bottom: 7px
-        width: 30%
+        width: 25%
         padding-right: 0%
         display: inline-block
         vertical-align: top
       .item-subheading
-        width: 65%
+        width: 70%
         margin-left: 4%
         display: inline-block
         vertical-align: top
