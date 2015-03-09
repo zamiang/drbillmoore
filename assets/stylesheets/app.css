@@ -49,9 +49,8 @@ ol:last-child, p:last-child {
 
 h1, h3 {
   line-height: 148%;
-  font-family: "franklin-gothic-urw", sans-serif;
-  font-weight: 400;
-  letter-spacing: 1px; }
+  font-family: "adobe-garamond-pro", Georgia, Cambria, "Times New Roman", Times, serif;
+  font-weight: 800; }
 
 h1 {
   font-size: 59px;
@@ -123,9 +122,8 @@ header {
     display: inline-block;
     padding: 0px;
     margin: 0px 10px;
-    font-family: "franklin-gothic-urw", sans-serif;
-    font-weight: 400;
-    letter-spacing: 1px;
+    font-family: "adobe-garamond-pro", Georgia, Cambria, "Times New Roman", Times, serif;
+    font-weight: 800;
     line-height: 150%; }
 
 footer {
@@ -218,9 +216,8 @@ footer {
       width: 93%; }
 
 .item-heading {
-  font-family: "franklin-gothic-urw", sans-serif;
-  font-weight: 400;
-  letter-spacing: 1px;
+  font-family: "adobe-garamond-pro", Georgia, Cambria, "Times New Roman", Times, serif;
+  font-weight: 800;
   text-transform: uppercase;
   font-size: 15px;
   line-height: 148%;
@@ -353,9 +350,8 @@ footer {
   background: #32004b;
   color: white;
   border-radius: 5px;
-  font-family: "franklin-gothic-urw", sans-serif;
-  font-weight: 400;
-  letter-spacing: 1px;
+  font-family: "adobe-garamond-pro", Georgia, Cambria, "Times New Roman", Times, serif;
+  font-weight: 800;
   line-height: 150%;
   text-transform: uppercase;
   cursor: pointer;
