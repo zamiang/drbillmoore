@@ -146,7 +146,7 @@ footer
   text-align: center
   h1
     padding-top: 71px
-    margin-bottom: 10px
+    margin-bottom: 15px
     font-weight: normal
     text-transform: none
   h1, h3, .border
@@ -177,6 +177,12 @@ footer
     margin-bottom: 20px
   h1
     font-size: 48px
+    &.small-width
+      width: 500px
+      margin-left: auto
+      margin-right: auto
+      margin-bottom: 30px
+      line-height: 130%
 
 
 .more-info
@@ -189,6 +195,9 @@ footer
       font-size: 16px
       a
         color: black
+      .faux-underline-large::before
+        border-bottom: 1px solid #333
+
     .info-section-group
       margin-bottom: 20px
       .info-section
@@ -298,10 +307,13 @@ footer
     padding-top: 0px
   .button
     margin-top: 58px
+    font-size: 15px
   .large-heading
     font-weight: normal
     text-transform: none
     font-size: 36px
+    line-height: 117%
+    margin-bottom: 13px
   .left, .right
     width: 50%
     display: inline-block
@@ -320,7 +332,9 @@ footer
     .right
       width: 66%
 
-
+  &.last
+    .button
+      margin-top: 100px
 
 .button
   display: inline-block
@@ -430,6 +444,8 @@ footer
     .blog-entry
       margin-bottom: 20px
       text-align: left
+      .faux-underline-large::before
+        margin-top: .2em
 
 .jobs
   .section-content
