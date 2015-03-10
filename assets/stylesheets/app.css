@@ -252,10 +252,16 @@ footer {
       margin-left: 0px; }
     .case-studies .case-study:last-child {
       margin-left: 0px; }
+    .case-studies .case-study .source {
+      margin-top: 8px;
+      margin-left: 19px; }
     .case-studies .case-study .item-heading {
-      margin-bottom: 1px; }
+      line-height: 130%;
+      margin-top: 15px; }
     .case-studies .case-study .item-supheading {
       margin-bottom: 6px; }
+    .case-studies .case-study .item-subheading {
+      margin-top: 8px; }
     .case-studies .case-study .case-study-image {
       width: 100%;
       height: 150px;
