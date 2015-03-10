@@ -311,6 +311,8 @@ footer {
   padding: 50px 0px 0px; }
   .section-do:last-child {
     padding-top: 0px; }
+  .section-do ol {
+    margin-top: 20px; }
   .section-do .button {
     margin-top: 77px;
     font-size: 16px; }
@@ -341,7 +343,9 @@ footer {
         font-size: 18px; }
     .section-do.third-size .right {
       width: 66%; }
-  .section-do.last .button {
+  .section-do.last .left .button {
+    margin-top: 10px; }
+  .section-do.last .right .button {
     margin-top: 133px; }
 
 .button {
@@ -398,8 +402,10 @@ footer {
     height: 60px; }
 
 .about .section-content p {
-  max-width: 650px;
-  margin: 0px auto 20px; }
+  margin: 0px auto 20px;
+  max-width: 650px; }
+  .about .section-content p.large {
+    font-size: 22px; }
 .about .about-video {
   text-align: center; }
   .about .about-video iframe {
@@ -414,9 +420,8 @@ footer {
   .about h3.small {
     font-size: 22px; }
 .about .about-section-group {
-  margin-top: 20px;
   max-width: 720px;
-  margin: 0px auto; }
+  margin: 30px auto 0px; }
   .about .about-section-group .about-section {
     border-bottom: 1px solid #ececec;
     padding: 15px 0px; }
@@ -435,7 +440,8 @@ footer {
       width: 70%;
       margin-left: 4%;
       display: inline-block;
-      vertical-align: top; }
+      vertical-align: top;
+      font-size: 18px; }
 
 .portrait {
   background-image: url("/assets/images/bill_vimeo.jpg");

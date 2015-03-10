@@ -310,6 +310,8 @@ footer
   padding: 50px 0px 0px
   &:last-child
     padding-top: 0px
+  ol
+    margin-top: 20px
   .button
     margin-top: 77px
     font-size: $small-font-size
@@ -338,8 +340,12 @@ footer
       width: 66%
 
   &.last
-    .button
-      margin-top: 133px
+    .left
+      .button
+        margin-top: 10px
+    .right
+      .button
+        margin-top: 133px
 
 .button
   display: inline-block
@@ -396,8 +402,10 @@ footer
 .about
   .section-content
     p
-      max-width: 650px
       margin: 0px auto 20px
+      max-width: 650px
+      &.large
+        font-size: 22px
   .about-video
     text-align: center
     iframe
@@ -411,10 +419,10 @@ footer
     text-transform: uppercase
     &.small
       font-size: 22px
+
   .about-section-group
-    margin-top: 20px
     max-width: 720px
-    margin: 0px auto
+    margin: 30px auto 0px
     .about-section
       border-bottom: 1px solid rgb(236, 236, 236)
       padding: 15px 0px
@@ -434,6 +442,7 @@ footer
         margin-left: 4%
         display: inline-block
         vertical-align: top
+        font-size: $base-font-size
 
 .portrait
   background-image: url('/assets/images/bill_vimeo.jpg')
