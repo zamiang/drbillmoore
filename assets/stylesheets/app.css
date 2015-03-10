@@ -257,6 +257,8 @@ footer {
       margin-left: 0px; }
     .case-studies .case-study:last-child, .case-studies .book:last-child, .section-books .case-study:last-child, .section-books .book:last-child {
       margin-left: 0px; }
+    .case-studies .case-study form, .case-studies .book form, .section-books .case-study form, .section-books .book form {
+      text-align: left; }
     .case-studies .case-study .source, .case-studies .book .source, .section-books .case-study .source, .section-books .book .source {
       margin-top: 8px;
       margin-left: 19px; }
