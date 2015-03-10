@@ -3,7 +3,10 @@
 @import "compass/utilities"
 @import "compass/css3"
 
-$purple: #32004b
+$color: #9D1020
+$dark-color: #D23F31
+$light-color: #F4EEEF
+$gray-color: #CDCDCD
 $small-font-size: 16px
 $base-font-size: 18px
 $large-heading-size: 51px
@@ -105,7 +108,7 @@ section:eq(2)
 section
   padding: 80px 0px
   &.purple-section
-    background: #f3f0f4
+    background: $light-color
   .section-content
     max-width: 950px
     padding: 0px 20px
@@ -116,7 +119,7 @@ section
     display: block
     height: 3px
     margin-bottom: 30px
-    background: $purple
+    background: $color
 
 header
   top: 0px
@@ -144,7 +147,7 @@ footer
   margin: 0px auto
 
 .separate
-  background: $purple
+  background: $color
   height: 20px
   width: 100%
 
@@ -272,7 +275,7 @@ footer
       margin-bottom: 10px
 
 .font-heading
-  color: $purple
+  color: $gray-color
   margin-bottom: 10px
 
 .more-section-group
@@ -286,6 +289,8 @@ footer
       margin-left: 0px
     &:last-child
       margin-left: 0px
+    .border
+      background-color: black
     .item-heading
       margin-bottom: 5px
       text-align: center
@@ -356,19 +361,21 @@ footer
 .button
   display: inline-block
   padding: 10px 20px
-  background: $purple
+  background: $dark-color
   color: white
   border-radius: 5px
-  +heading-font
+  font-family: sans-serif
+  font-weight: bold
   line-height: 150%
-  text-transform: uppercase
   cursor: pointer
-  transition: box-shadow 0.2s cubic-bezier(0.4, 0, 0.2, 1)
-  transition-delay: 0.2s
+  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1)
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26)
   margin-bottom: 3px
+  &:hover
+    box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2)
 
 .books
+  padding-top: 0px
   .book
     display: inline-block
     vertical-align: top
@@ -449,6 +456,8 @@ footer
         display: inline-block
         vertical-align: top
         font-size: $base-font-size
+      .faux-underline-large::before
+        margin-top: 0.25em
 
 .portrait
   background-image: url('/assets/images/bill_vimeo.jpg')
