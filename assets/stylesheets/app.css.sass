@@ -4,7 +4,7 @@
 @import "compass/css3"
 
 $color: #9D1020
-$dark-color: #D23F31
+$dark-color: #C81B1E
 $light-color: #F4EEEF
 $gray-color: #CDCDCD
 $small-font-size: 16px
@@ -194,6 +194,10 @@ footer
       margin-bottom: 30px
       line-height: 130%
 
+#help-become
+  margin-top: -80px
+  margin-bottom: -80px
+  padding: 70px 0px
 
 .more-info
   .section-content
@@ -244,9 +248,9 @@ footer
   text-align: left
   margin-top: -8px
 
-.case-studies
+.case-studies, .section-books
   text-align: center
-  .case-study
+  .case-study, .book
     width: 30%
     display: inline-block
     vertical-align: top
@@ -275,7 +279,7 @@ footer
       margin-bottom: 10px
 
 .font-heading
-  color: $gray-color
+  color: $color
   margin-bottom: 10px
 
 .more-section-group
@@ -376,10 +380,6 @@ footer
 
 .books
   padding-top: 0px
-  .book
-    display: inline-block
-    vertical-align: top
-    width: 24%
 
 .team
   .section-content
@@ -430,8 +430,6 @@ footer
     margin-bottom: 20px
     font-size: 30px
     text-transform: uppercase
-    &.small
-      font-size: 22px
 
   .about-section-group
     max-width: 720px

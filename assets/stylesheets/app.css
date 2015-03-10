@@ -190,6 +190,11 @@ footer {
     margin-bottom: 30px;
     line-height: 130%; }
 
+#help-become {
+  margin-top: -80px;
+  margin-bottom: -80px;
+  padding: 70px 0px; }
+
 .more-info .section-content .client-section {
   text-align: center;
   -moz-column-count: 3;
@@ -241,28 +246,28 @@ footer {
   text-align: left;
   margin-top: -8px; }
 
-.case-studies {
+.case-studies, .section-books {
   text-align: center; }
-  .case-studies .case-study {
+  .case-studies .case-study, .case-studies .book, .section-books .case-study, .section-books .book {
     width: 30%;
     display: inline-block;
     vertical-align: top;
     margin: 0px 2% 17px; }
-    .case-studies .case-study:first-child {
+    .case-studies .case-study:first-child, .case-studies .book:first-child, .section-books .case-study:first-child, .section-books .book:first-child {
       margin-left: 0px; }
-    .case-studies .case-study:last-child {
+    .case-studies .case-study:last-child, .case-studies .book:last-child, .section-books .case-study:last-child, .section-books .book:last-child {
       margin-left: 0px; }
-    .case-studies .case-study .source {
+    .case-studies .case-study .source, .case-studies .book .source, .section-books .case-study .source, .section-books .book .source {
       margin-top: 8px;
       margin-left: 19px; }
-    .case-studies .case-study .item-heading {
+    .case-studies .case-study .item-heading, .case-studies .book .item-heading, .section-books .case-study .item-heading, .section-books .book .item-heading {
       line-height: 130%;
       margin-top: 15px; }
-    .case-studies .case-study .item-supheading {
+    .case-studies .case-study .item-supheading, .case-studies .book .item-supheading, .section-books .case-study .item-supheading, .section-books .book .item-supheading {
       margin-bottom: 6px; }
-    .case-studies .case-study .item-subheading {
+    .case-studies .case-study .item-subheading, .case-studies .book .item-subheading, .section-books .case-study .item-subheading, .section-books .book .item-subheading {
       margin-top: 8px; }
-    .case-studies .case-study .case-study-image {
+    .case-studies .case-study .case-study-image, .case-studies .book .case-study-image, .section-books .case-study .case-study-image, .section-books .book .case-study-image {
       width: 100%;
       height: 150px;
       background-color: #f3f3f3;
@@ -272,7 +277,7 @@ footer {
       margin-bottom: 10px; }
 
 .font-heading {
-  color: #CDCDCD;
+  color: #9D1020;
   margin-bottom: 10px; }
 
 .more-section-group {
@@ -359,7 +364,7 @@ footer {
 .button {
   display: inline-block;
   padding: 10px 20px;
-  background: #D23F31;
+  background: #C81B1E;
   color: white;
   border-radius: 5px;
   font-family: sans-serif;
@@ -374,10 +379,6 @@ footer {
 
 .books {
   padding-top: 0px; }
-  .books .book {
-    display: inline-block;
-    vertical-align: top;
-    width: 24%; }
 
 .team .section-content {
   max-width: 950px; }
@@ -427,8 +428,6 @@ footer {
   margin-bottom: 20px;
   font-size: 30px;
   text-transform: uppercase; }
-  .about h3.small {
-    font-size: 22px; }
 .about .about-section-group {
   max-width: 720px;
   margin: 30px auto 0px; }
