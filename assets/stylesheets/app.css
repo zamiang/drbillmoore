@@ -102,6 +102,8 @@ section {
     section.purple-section .button {
       background-color: white;
       color: #9D1020; }
+    section.purple-section .small {
+      margin-bottom: 35px; }
   section .section-content {
     max-width: 950px;
     padding: 0px 20px;
@@ -199,9 +201,9 @@ footer {
     line-height: 130%; }
 
 #help-become {
-  margin-top: -80px;
-  margin-bottom: -80px;
-  padding: 70px 0px; }
+  margin-top: -60px;
+  margin-bottom: -60px;
+  padding: 40px 0 35px; }
 
 .more-info .section-content .client-section {
   text-align: center;
