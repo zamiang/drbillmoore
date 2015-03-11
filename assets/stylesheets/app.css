@@ -189,8 +189,21 @@ footer {
     max-width: 533px;
     text-align: left; }
 
+.large-footer .personal-images {
+  overflow: hidden;
+  *zoom: 1; }
+.large-footer .image {
+  height: 200px;
+  width: 200px;
+  background-size: cover;
+  background-position: center center;
+  display: inline-block;
+  vertical-align: top; }
+  .large-footer .image:first-child {
+    width: 162px; }
 .large-footer .portrait {
-  margin-bottom: 20px; }
+  display: inline-block;
+  margin: 0px 30px 20px 30px; }
 .large-footer h1 {
   font-size: 48px; }
   .large-footer h1.small-width {

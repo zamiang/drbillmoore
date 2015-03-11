@@ -192,8 +192,22 @@ footer
     text-align: left
 
 .large-footer
+  .personal-images
+    +clearfix
+
+  .image
+    height: 200px
+    width: 200px
+    background-size: cover
+    background-position: center center
+    display: inline-block
+    vertical-align: top
+    &:first-child
+      width: 162px
+
   .portrait
-    margin-bottom: 20px
+    display: inline-block
+    margin: 0px 30px 20px 30px
   h1
     font-size: 48px
     &.small-width
