@@ -14,8 +14,6 @@ body {
   color: rgba(0, 0, 0, 0.8); }
   body a {
     color: #39c; }
-  body h1, body h2, body h1 a, body h2 a, body h1, body h3, body h4, body h5, body h6 {
-    color: #222; }
 
 h1, h2, h3, h4, h5, h6 {
   margin: 0 0 20px; }
@@ -78,7 +76,6 @@ h2 {
 h3 {
   margin-bottom: 10px;
   text-align: center;
-  color: rgba(0, 0, 0, 0.8);
   font-size: 30px; }
 
 a {
@@ -96,7 +93,15 @@ section:eq(2) {
 section {
   padding: 80px 0px; }
   section.purple-section {
-    background: #F4EEEF; }
+    background: #9D1020;
+    color: white; }
+    section.purple-section .font-heading {
+      color: white; }
+    section.purple-section .border {
+      background-color: white; }
+    section.purple-section .button {
+      background-color: white;
+      color: #9D1020; }
   section .section-content {
     max-width: 950px;
     padding: 0px 20px;
@@ -137,8 +142,11 @@ footer {
 
 .separate {
   background: #9D1020;
-  height: 20px;
-  width: 100%; }
+  height: 4px;
+  width: 10px;
+  margin: 0px auto; }
+  .separate.first {
+    width: 100%; }
 
 .hero-unit, .large-footer {
   position: relative;
@@ -298,8 +306,6 @@ footer {
       margin-left: 0px; }
     .more-section-group .more-section:last-child {
       margin-left: 0px; }
-    .more-section-group .more-section .border {
-      background-color: black; }
     .more-section-group .more-section .item-heading {
       margin-bottom: 5px;
       text-align: center; }

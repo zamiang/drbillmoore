@@ -36,9 +36,6 @@ body
   a
     color: #39c
 
-  h1, h2, h1 a, h2 a, h1, h3, h4, h5, h6
-    color: #222
-
 h1, h2, h3, h4, h5, h6
   margin: 0 0 20px
 
@@ -90,7 +87,6 @@ h2
 h3
   margin-bottom: 10px
   text-align: center
-  color: rgba(0,0,0,0.8)
   font-size: $heading-size
 
 a
@@ -108,7 +104,16 @@ section:eq(2)
 section
   padding: 80px 0px
   &.purple-section
-    background: $light-color
+    background: $color
+    color: white
+    .font-heading
+      color: white
+    .border
+      background-color: white
+    .button
+      background-color: white
+      color: $color
+
   .section-content
     max-width: 950px
     padding: 0px 20px
@@ -148,8 +153,11 @@ footer
 
 .separate
   background: $color
-  height: 20px
-  width: 100%
+  height: 4px
+  width: 10px
+  margin: 0px auto
+  &.first
+    width: 100%
 
 .hero-unit, .large-footer
   position: relative
@@ -300,8 +308,6 @@ footer
       margin-left: 0px
     &:last-child
       margin-left: 0px
-    .border
-      background-color: black
     .item-heading
       margin-bottom: 5px
       text-align: center
