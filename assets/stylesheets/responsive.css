@@ -12,22 +12,20 @@
       header a:last-child {
         display: none; }
 
-  .about-video {
-    display: none; }
-
-  .hero-unit {
-    padding-bottom: 71px; }
-    .hero-unit h1 {
-      font-size: 53px;
-      padding-top: 30px; }
+  .section-do .left, .section-do .right, .section-do.third-size .left, .section-do.third-size .right {
+    width: 100%; }
 
   .about .about-section-group .about-section .item-heading, .about .about-section-group .about-section .item-subheading {
     width: 100%;
     margin-left: 0px; }
 
-  .case-studies .case-study {
+  .case-studies .case-study, .case-studies .book, .section-books .case-study, .section-books .book {
     width: 100%;
     margin: 0px 0px 30px; }
+
+  .more-section-group .more-section {
+    width: 100%;
+    margin: 10px 0px; }
 
   .more-info .section-content .client-section {
     -moz-column-count: 2;
