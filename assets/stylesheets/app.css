@@ -269,7 +269,9 @@ footer {
     .case-studies .case-study:last-child, .case-studies .book:last-child, .section-books .case-study:last-child, .section-books .book:last-child {
       margin-left: 0px; }
     .case-studies .case-study form, .case-studies .book form, .section-books .case-study form, .section-books .book form {
-      text-align: left; }
+      text-align: left;
+      float: left;
+      margin-top: 10px; }
     .case-studies .case-study .source, .case-studies .book .source, .section-books .case-study .source, .section-books .book .source {
       margin-top: 8px;
       margin-left: 19px; }
@@ -280,6 +282,13 @@ footer {
       margin-bottom: 6px; }
     .case-studies .case-study .item-subheading, .case-studies .book .item-subheading, .section-books .case-study .item-subheading, .section-books .book .item-subheading {
       margin-top: 8px; }
+    .case-studies .case-study .book-price, .case-studies .book .book-price, .section-books .case-study .book-price, .section-books .book .book-price {
+      font-weight: bold;
+      font-style: normal;
+      color: black;
+      float: left;
+      margin-top: 13px;
+      margin-left: 6px; }
     .case-studies .case-study .case-study-image, .case-studies .book .case-study-image, .section-books .case-study .case-study-image, .section-books .book .case-study-image {
       width: 100%;
       height: 150px;
