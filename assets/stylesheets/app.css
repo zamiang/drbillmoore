@@ -272,6 +272,12 @@ footer {
 
 .case-studies, .section-books {
   text-align: center; }
+  .case-studies.half .case-study, .case-studies.half .book, .case-studies.full .case-study, .case-studies.full .book, .section-books.half .case-study, .section-books.half .book, .section-books.full .case-study, .section-books.full .book {
+    width: 35%; }
+  .case-studies.full .case-study, .case-studies.full .book, .section-books.full .case-study, .section-books.full .book {
+    width: 45%; }
+  .case-studies.quarter .case-study, .case-studies.quarter .book, .section-books.quarter .case-study, .section-books.quarter .book {
+    width: 21%; }
   .case-studies .case-study, .case-studies .book, .section-books .case-study, .section-books .book {
     width: 30%;
     display: inline-block;
