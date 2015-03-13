@@ -17,6 +17,6 @@ redcarpet:
 
 collections:
   seminars:
-    output: false
+    output: true
   books:
-    output: false
+    output: true

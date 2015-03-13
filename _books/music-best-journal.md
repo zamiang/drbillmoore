@@ -3,6 +3,7 @@ title: Playing Your Best
 subtitle: High-Performance Journal for Musicians
 image: /assets/images/journal.png
 type: music
+layout: 'book'
 ---
 
 For years, successful musicians have used this journal with positive

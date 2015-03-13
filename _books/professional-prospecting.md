@@ -3,6 +3,7 @@ title: Fearless Prospecting
 subtitle: 'High-Performance Journal for Sales Professionals'
 image: /assets/images/prospecting.jpg
 type: corporate
+layout: 'book'
 ---
 
 As a sales professional in a high-pressure performance environment,

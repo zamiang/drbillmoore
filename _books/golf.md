@@ -2,6 +2,7 @@
 title: Mental Skills for Tournament Golfers
 image: /assets/images/golf.png
 type: golf
+layout: 'book'
 ---
 
 Are you ready to take your game to the next level?  If so, this book

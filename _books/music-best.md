@@ -3,6 +3,7 @@ title: Playing Your Best When It Counts
 subtitle: Mental Skills for Musicians
 image: /assets/images/journal.png
 type: music
+layout: 'book'
 ---
 
 How do you train mental performance skills in practice? This book was

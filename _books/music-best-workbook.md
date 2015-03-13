@@ -3,6 +3,7 @@ title: Playing Your Best
 subtitle: Mental Skills Workbook
 image: /assets/images/musicians.jpg
 type: music
+layout: 'book'
 ---
 
 This workbook provides the opportunity to refine and development your
