@@ -281,7 +281,7 @@ layout: default
             {% for seminar in site.seminars do %}
             {% if seminar.type == 'corporate' %}
             <div class="book">
-                <div class="item-heading large-heading">{{ seminar.title }}</div>
+                <a href="{{ seminar.pdf }}" class="item-heading large-heading">{{ seminar.title }}</a>
                 <div class="item-subheading">{{ seminar.content | markdownify }}</div>
             </div>
             {% endif %}
@@ -292,7 +292,7 @@ layout: default
             {% for seminar in site.seminars do %}
             {% if seminar.type == 'music' %}
             <div class="book">
-                <div class="item-heading large-heading">{{ seminar.title }}</div>
+                <a href="{{ seminar.pdf }}" class="item-heading large-heading">{{ seminar.title }}</a>
                 <div class="item-subheading">{{ seminar.content | markdownify }}</div>
             </div>
             {% endif %}
@@ -303,7 +303,7 @@ layout: default
             {% for seminar in site.seminars do %}
             {% if seminar.type == 'sports' %}
             <div class="book">
-                <div class="item-heading large-heading">{{ seminar.title }}</div>
+                <a href="{{ seminar.pdf }}" class="item-heading large-heading">{{ seminar.title }}</a>
                 <div class="item-subheading">{{ seminar.content | markdownify }}</div>
             </div>
             {% endif %}
