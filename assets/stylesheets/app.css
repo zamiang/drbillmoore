@@ -278,6 +278,10 @@ footer {
     width: 45%; }
   .case-studies.quarter .case-study, .case-studies.quarter .book, .section-books.quarter .case-study, .section-books.quarter .book {
     width: 21%; }
+  .case-studies a.item-heading, .section-books a.item-heading {
+    display: block;
+    color: black;
+    text-align: left; }
   .case-studies .case-study, .case-studies .book, .section-books .case-study, .section-books .book {
     width: 30%;
     display: inline-block;
