@@ -8,7 +8,15 @@ layout: compress
     <body>
         {% include header.html %}
         <div class="wrapper">
-            {{ content }}
+            <section class="seminar">
+                <div class="section-content">
+                    <div class="section-seminar">
+                        <div class="item-heading large-heading">{{ page.title }}</div>
+                        {{ content }}
+                        <a class="button" href="{{ page.pdf }}">Download</a>
+                    </div>
+                </div>
+            </section>
         </div>
         {% include footer.html %}
         {% include ga.html %}
