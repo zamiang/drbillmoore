@@ -8,10 +8,12 @@ layout: compress
     <body>
         {% include header.html %}
         <div class="wrapper">
-            <section class="book">
+            <section class="section-books section-book">
                 <div class="section-content">
-                    <div class="section-book">
-                        <div class="case-study-image" style="background-image: url('{{ book.image }}')"></div>
+                    <div class="book">
+                        <h3>Book</h3>
+                        <div class="border"></div>
+                        <div class="book-page-image" style="background-image: url('{{ page.image }}')"></div>
                         <h1>{{ page.title }}</h1>
                         {{ content }}
                     </div>

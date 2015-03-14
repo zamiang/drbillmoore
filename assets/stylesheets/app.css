@@ -277,7 +277,7 @@ footer {
   .case-studies.full .case-study, .case-studies.full .book, .section-books.full .case-study, .section-books.full .book {
     width: 45%; }
   .case-studies.quarter .case-study, .case-studies.quarter .book, .section-books.quarter .case-study, .section-books.quarter .book {
-    width: 21.6%; }
+    width: 22.5%; }
   .case-studies a.item-heading, .section-books a.item-heading {
     display: block;
     color: black;
@@ -285,10 +285,10 @@ footer {
     font-weight: normal;
     text-decoration: underline; }
   .case-studies .case-study, .case-studies .book, .section-books .case-study, .section-books .book {
-    width: 30%;
+    width: 31.1%;
     display: inline-block;
     vertical-align: top;
-    margin: 0px 2% 17px; }
+    margin: 0px 1.4% 17px; }
     .case-studies .case-study:first-child, .case-studies .book:first-child, .section-books .case-study:first-child, .section-books .book:first-child {
       margin-left: 0px; }
     .case-studies .case-study:last-child, .case-studies .book:last-child, .section-books .case-study:last-child, .section-books .book:last-child {
@@ -432,37 +432,21 @@ footer {
 .books {
   padding-top: 0px; }
 
-.team .section-content {
-  max-width: 950px; }
-.team .team-member {
-  width: 32.9%;
-  display: inline-block;
-  vertical-align: top;
-  margin-bottom: 20px; }
-  .team .team-member .team-member-image {
-    width: 110px;
-    height: 110px;
-    background: #333;
-    -moz-border-radius: 50%;
-    -webkit-border-radius: 50%;
-    border-radius: 50%;
-    display: block;
+section.section-book {
+  max-width: 650px;
+  margin: 0px auto; }
+  section.section-book .book {
+    margin: 0px;
+    width: 100%; }
+    section.section-book .book p {
+      text-align: left; }
+  section.section-book .book-page-image {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
-    float: left;
-    margin-right: 6%; }
-  .team .team-member .item-subheading {
-    max-width: 93%; }
-.team .team-leads {
-  margin-bottom: 20px; }
-.team .team-collaborators {
-  text-align: center; }
-  .team .team-collaborators h3 {
-    margin-bottom: 28px; }
-  .team .team-collaborators .team-member-image {
-    width: 60px;
-    height: 60px; }
+    width: 200px;
+    height: 200px;
+    margin: 10px auto; }
 
 .about .section-content p {
   margin: 0px auto 20px;
