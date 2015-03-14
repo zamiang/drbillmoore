@@ -239,11 +239,13 @@ layout: default
             {% for book in site.books do %}
             {% if book.type == 'corporate' %}
             <div class="book">
-                <div class="books-container">
-                    <div class="three-d-book">
-                        <div class="book-page-image" style="background-image: url('{{ book.image }}')"></div>
+                <a href="{{ book.url }}">
+                    <div class="books-container">
+                        <div class="three-d-book">
+                            <div class="book-page-image" style="background-image: url('{{ book.image }}')"></div>
+                        </div>
                     </div>
-                </div>
+                </a>
                 <a href="{{ book.url }}" class="item-heading large-heading">{{ book.title }}</a>
                 <div class="item-supheading">{{ book.subtitle }}</div>
                 <div class="item-subheading">{{ book.content | markdownify }}</div>
@@ -256,12 +258,13 @@ layout: default
             {% for book in site.books do %}
             {% if book.type == 'music' %}
             <div class="book">
-                <div class="books-container">
-                    <div class="three-d-book">
-                        <div class="book-page-image" style="background-image: url('{{ book.image }}')"></div>
+                <a href="{{ book.url }}">
+                    <div class="books-container">
+                        <div class="three-d-book">
+                            <div class="book-page-image" style="background-image: url('{{ book.image }}')"></div>
+                        </div>
                     </div>
-                </div>
-
+                </a>
                 <a href="{{ book.url }}" class="item-heading large-heading">{{ book.title }}</a>
                 <div class="item-supheading">{{ book.subtitle }}</div>
                 <div class="item-subheading">{{ book.content | markdownify }}</div>
@@ -274,11 +277,13 @@ layout: default
             {% for book in site.books do %}
             {% if book.type == 'golf' %}
             <div class="book">
-                <div class="books-container">
-                    <div class="three-d-book">
-                        <div class="book-page-image" style="background-image: url('{{ book.image }}')"></div>
+                <a href="{{ book.url }}">
+                    <div class="books-container">
+                        <div class="three-d-book">
+                            <div class="book-page-image" style="background-image: url('{{ book.image }}')"></div>
+                        </div>
                     </div>
-                </div>
+                </a>
                 <a href="{{ book.url }}" class="item-heading large-heading">{{ book.title }}</a>
                 <div class="item-subheading">{{ book.content | markdownify }}</div>
             </div>

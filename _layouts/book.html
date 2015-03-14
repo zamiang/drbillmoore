@@ -19,7 +19,16 @@ layout: compress
                             </div>
                         </div>
                         <h1>{{ page.title }}</h1>
+                        {% if page.subtitle %}
+                        <div class="item-supheading">{{ page.subtitle }}</div>
+                        {% endif %}
                         {{ content }}
+                        {% if page.contents %}
+                        <br />
+                        <br />
+                        <h4>Contents</h4>
+                        <div class="contents">{{ page.contents | markdownify }}</div>
+                        {% endif %}
                     </div>
                 </div>
             </section>

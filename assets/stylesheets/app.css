@@ -440,6 +440,9 @@ section.section-book {
     width: 100%; }
     section.section-book .book p {
       text-align: left; }
+    section.section-book .book .item-supheading {
+      text-align: center;
+      margin-bottom: 20px; }
 
 .book-page-image {
   background-size: cover;
