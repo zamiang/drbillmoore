@@ -346,8 +346,15 @@ footer {
       margin-bottom: 5px;
       text-align: center; }
 
-.seminars .section-content .item-heading {
-  text-transform: none; }
+.seminars .section-content {
+  text-align: center; }
+  .seminars .section-content h3 {
+    font-size: 22px;
+    font-weight: normal; }
+  .seminars .section-content .item-heading {
+    text-transform: none;
+    text-decoration: none;
+    font-size: 18px; }
 
 .talks {
   text-align: center; }

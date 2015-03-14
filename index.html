@@ -297,7 +297,7 @@ layout: default
     <div class="section-content">
         <h1 class="small-header">Seminars</h1>
         <div class="border"></div>
-        <h3>Corporate Seminars</h3>
+        <h3 class="faux-underline-large">Corporate Seminars</h3>
         <div class="section-books quarter">
             {% for seminar in site.seminars do %}
             {% if seminar.type == 'corporate' %}
@@ -307,7 +307,7 @@ layout: default
             {% endif %}
             {% endfor %}
         </div>
-        <h3>Music Seminars</h3>
+        <h3 class="faux-underline-large">Music Seminars</h3>
         <div class="section-books third">
             {% for seminar in site.seminars do %}
             {% if seminar.type == 'music' %}
@@ -317,7 +317,7 @@ layout: default
             {% endif %}
             {% endfor %}
         </div>
-        <h3>Sports Seminars</h3>
+        <h3 class="faux-underline-large">Sports Seminars</h3>
         <div class="section-books quarter">
             {% for seminar in site.seminars do %}
             {% if seminar.type == 'sports' %}
