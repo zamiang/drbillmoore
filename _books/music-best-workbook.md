@@ -1,7 +1,7 @@
 ---
 title: Playing Your Best
 subtitle: Mental Skills Workbook
-image: /assets/images/musicians.jpg
+image: /assets/images/workbook.png
 type: music
 layout: 'book'
 ---

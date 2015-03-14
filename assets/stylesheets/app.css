@@ -440,13 +440,14 @@ section.section-book {
     width: 100%; }
     section.section-book .book p {
       text-align: left; }
-  section.section-book .book-page-image {
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-    width: 200px;
-    height: 200px;
-    margin: 10px auto; }
+
+.book-page-image {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 200px;
+  height: 176px;
+  margin: 10px auto; }
 
 .about .section-content p {
   margin: 0px auto 20px;
@@ -546,3 +547,53 @@ section.section-book {
   color: #505050; }
 .faux-underline-large:hover {
   text-decoration: none; }
+
+.books-container {
+  -moz-perspective: 100px;
+  -webkit-perspective: 100px;
+  perspective: 100px;
+  -moz-transform-style: preserve-3d;
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  width: 125px;
+  margin: 25px auto; }
+
+.three-d-book {
+  position: relative;
+  -moz-transform: perspective(100) rotateY(-3deg);
+  -ms-transform: perspective(100) rotateY(-3deg);
+  -webkit-transform: perspective(100) rotateY(-3deg);
+  transform: perspective(100) rotateY(-3deg);
+  outline: 1px solid transparent;
+  box-shadow: none;
+  margin: 0; }
+
+.three-d-book .book-page-image {
+  position: relative;
+  max-width: 100%;
+  border: 1px solid #ccc; }
+
+.three-d-book:before, .three-d-book:after {
+  position: absolute;
+  top: 2%;
+  height: 96%;
+  content: " ";
+  z-index: -1; }
+
+.three-d-book:before {
+  width: 100%;
+  left: 7.5%;
+  background-color: #5a2d18;
+  box-shadow: 5px 5px 25px #ccc; }
+
+.three-d-book:after {
+  width: 5%;
+  left: 100%;
+  background-color: #EFEFEF;
+  -moz-box-shadow: inset 0px 0px 5px #aaa;
+  -webkit-box-shadow: inset 0px 0px 5px #aaa;
+  box-shadow: inset 0px 0px 5px #aaa;
+  -moz-transform: perspective(100) rotateY(20deg);
+  -ms-transform: perspective(100) rotateY(20deg);
+  -webkit-transform: perspective(100) rotateY(20deg);
+  transform: perspective(100) rotateY(20deg); }

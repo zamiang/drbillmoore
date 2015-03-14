@@ -1,7 +1,7 @@
 ---
 title: Playing Your Best When It Counts
 subtitle: Mental Skills for Musicians
-image: /assets/images/journal.png
+image: /assets/images/musicians.jpg
 type: music
 layout: 'book'
 ---

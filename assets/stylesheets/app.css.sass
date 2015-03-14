@@ -449,13 +449,14 @@ section.section-book
     width: 100%
     p
       text-align: left
-  .book-page-image
-    background-size: cover
-    background-repeat: no-repeat
-    background-position: center center
-    width: 200px
-    height: 200px
-    margin: 10px auto
+
+.book-page-image
+  background-size: cover
+  background-repeat: no-repeat
+  background-position: center center
+  width: 200px
+  height: 176px
+  margin: 10px auto
 
 .about
   .section-content
@@ -563,3 +564,41 @@ section.section-book
 
   &:hover
     text-decoration: none
+
+.books-container
+  +perspective(100px)
+  +transform-style(preserve-3d)
+  width: 125px
+  margin: 25px auto
+
+.three-d-book
+  position: relative
+  +transform(perspective(100) rotateY(-3deg))
+  outline: 1px solid transparent
+  box-shadow: none
+  margin: 0
+
+.three-d-book .book-page-image
+  position: relative
+  max-width: 100%
+  border: 1px solid #ccc
+
+.three-d-book:before, .three-d-book:after
+  position: absolute
+  top: 2%
+  height: 96%
+  content: ' '
+  z-index: -1
+
+.three-d-book:before
+  width: 100%
+  left: 7.5%
+  background-color: #5a2d18
+  box-shadow: 5px 5px 25px #ccc
+
+.three-d-book:after
+  width: 5%
+  left: 100%
+  background-color: #EFEFEF
+  +box-shadow(inset 0px 0px 5px #aaa)
+  +transform(perspective(100) rotateY(20deg))
