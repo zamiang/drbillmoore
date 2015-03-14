@@ -4,6 +4,42 @@ subtitle: High-Performance Journal for Musicians
 image: /assets/images/journal.png
 type: music
 layout: 'book'
+contents: "
+**Introduction** /3
+<br />
+Dare Mighty Things, How Will This Journal Help You?,Your Path to Performance Excellence, Keeping Your Journal, Staying on Target
+Performance Psychology Primer
+<br />
+**1. Five Steps to Attaining Your Goals** /18
+<br />
+Step 1: Clarify your core performance values, Step 2: Identify your performance vision, Step 3: Embrace your performance vision, Step 4: Anticipate possible barriers to your vision, Step 5: Keep your dream alive,
+<br />
+**2. Building Confidence in Yourself** /23
+<br />
+Five Steps to Playing With Confidence, Step 1: Become a great self coach , Step 2: Commit to being prepared, Step 3: Develop a pre-performance plan, Step 4: Embrace your strengths, Step 5: Develop performance scripts
+<br />
+**3. Your Mental Performance Skills** /28
+<br />
+Courage, Trust, Acceptance
+Practice Journals
+<br />
+**4. Practice Journal Instructions** /35
+<br />
+Weekly plan, Daily practice journal, Weekly key points & solutions, Notes & reminders
+<br />
+**5. Weekly Plans** /39
+<br />
+Week 1, Week 2, Week 3, Week 4
+Performance Journals
+<br />
+**6. Performance Journal Instructions** / 115
+<br />
+Performance plan, Performance script, Performance notes, Post-performance evaluation
+<br />
+**7. Performance Plans** /122
+<br />
+Plans 1 - 6
+"
 ---
 
 For years, successful musicians have used this journal with positive
