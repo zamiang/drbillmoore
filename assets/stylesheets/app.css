@@ -92,17 +92,19 @@ section:eq(2) {
 
 section {
   padding: 80px 0px; }
-  section.purple-section {
-    background: #9D1020;
+  section.light-color-section {
+    background: #faf8df; }
+  section.dark-color-section {
+    background: #AF120C;
     color: white; }
-    section.purple-section .font-heading {
+    section.dark-color-section .font-heading {
       color: white; }
-    section.purple-section .border {
+    section.dark-color-section .border {
       background-color: white; }
-    section.purple-section .button {
+    section.dark-color-section .button {
       background-color: white;
-      color: #9D1020; }
-    section.purple-section .small {
+      color: #AF120C; }
+    section.dark-color-section .small {
       margin-bottom: 35px; }
   section .section-content {
     max-width: 950px;
@@ -114,7 +116,7 @@ section {
     display: block;
     height: 3px;
     margin-bottom: 30px;
-    background: #9D1020; }
+    background: #AF120C; }
 
 header {
   top: 0px;
@@ -143,7 +145,7 @@ footer {
   margin: 0px auto; }
 
 .separate {
-  background: #9D1020;
+  background: #AF120C;
   height: 4px;
   width: 10px;
   margin: 0px auto; }
@@ -323,12 +325,17 @@ footer {
       background-position: top center;
       margin-bottom: 10px; }
 
+.case-studies {
+  margin-bottom: 25px; }
+
+.section-books .book .item-heading.large-heading {
+  font-weight: bold; }
 .section-books .book .case-study-image {
   background-color: white;
   background-size: contain; }
 
 .font-heading {
-  color: #9D1020;
+  color: #AF120C;
   margin-bottom: 10px; }
 
 .more-section-group {
@@ -416,14 +423,14 @@ footer {
     .section-do.third-size .right {
       width: 66%; }
   .section-do.last .left .button {
-    margin-top: 10px; }
+    margin-top: 25px; }
   .section-do.last .right .button {
     margin-top: 133px; }
 
 .button {
   display: inline-block;
   padding: 10px 20px;
-  background: #C81B1E;
+  background: #B91019;
   color: white;
   border-radius: 5px;
   font-family: sans-serif;
@@ -435,9 +442,6 @@ footer {
   margin-bottom: 3px; }
   .button:hover {
     box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2); }
-
-.books {
-  padding-top: 0px; }
 
 section.section-book {
   max-width: 650px;
@@ -519,6 +523,8 @@ section.section-book {
     text-align: left; }
     .blog .section-content .blog-entry .faux-underline-large::before {
       margin-top: 0.2em; }
+.blog .section-writing {
+  margin-bottom: 40px; }
 
 .jobs .section-content {
   text-align: center;

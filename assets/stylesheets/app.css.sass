@@ -3,9 +3,9 @@
 @import "compass/utilities"
 @import "compass/css3"
 
-$color: #9D1020
-$dark-color: #C81B1E
-$light-color: #F4EEEF
+$color: #AF120C
+$dark-color: #B91019
+$light-color: #faf8df
 $gray-color: #CDCDCD
 $small-font-size: 16px
 $base-font-size: 18px
@@ -103,7 +103,9 @@ section:eq(2)
 
 section
   padding: 80px 0px
-  &.purple-section
+  &.light-color-section
+    background: $light-color
+  &.dark-color-section
     background: $color
     color: white
     .font-heading
@@ -331,9 +333,17 @@ footer
       background-position: top center
       margin-bottom: 10px
 
-.section-books .book .case-study-image
-  background-color: white
-  background-size: contain
+.case-studies
+  margin-bottom: 25px
+
+.section-books
+  .book
+    .item-heading.large-heading
+      font-weight: bold
+
+    .case-study-image
+      background-color: white
+      background-size: contain
 
 .font-heading
   color: $color
@@ -423,7 +433,7 @@ footer
   &.last
     .left
       .button
-        margin-top: 10px
+        margin-top: 25px
     .right
       .button
         margin-top: 133px
@@ -443,9 +453,6 @@ footer
   margin-bottom: 3px
   &:hover
     box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2)
-
-.books
-  padding-top: 0px
 
 section.section-book
   max-width: 650px
@@ -531,6 +538,9 @@ section.section-book
       text-align: left
       .faux-underline-large::before
         margin-top: .2em
+  .section-writing
+    margin-bottom: 40px
+
 
 .jobs
   .section-content
