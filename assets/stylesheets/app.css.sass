@@ -4,7 +4,7 @@
 @import "compass/css3"
 
 $color: #AF120C
-$dark-color: #B91019
+$dark-color: #A50700
 $light-color: #faf8df
 $gray-color: #CDCDCD
 $small-font-size: 16px
@@ -263,7 +263,6 @@ footer
       text-decoration: underline
 
 .item-subheading
-  font-size: $small-font-size
   text-align: left
   line-height: 144%
 
@@ -375,10 +374,13 @@ footer
     h3
       font-size: 22px
       font-weight: normal
-    .item-heading
+    .item-heading.large-heading
       text-transform: none
       text-decoration: none
       font-size: 18px
+      font-weight: normal
+      &:hover
+        text-decoration: underline
 
 .talks
   text-align: center
@@ -520,7 +522,6 @@ section.section-book
         margin-left: 4%
         display: inline-block
         vertical-align: top
-        font-size: $base-font-size
       .faux-underline-large::before
         margin-top: 0.25em
 
