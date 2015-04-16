@@ -256,6 +256,9 @@ footer {
     font-size: 22px;
     line-height: 138%;
     margin-bottom: 7px; }
+    .item-heading.large-heading a {
+      color: black;
+      text-decoration: underline; }
 
 .item-subheading {
   font-size: 16px;
@@ -285,7 +288,9 @@ footer {
     color: black;
     text-align: left;
     font-weight: normal;
-    text-decoration: underline; }
+    text-decoration: underline;
+    font-size: 20px;
+    margin-bottom: 4px; }
   .case-studies .case-study, .case-studies .book, .section-books .case-study, .section-books .book {
     width: 31.1%;
     display: inline-block;

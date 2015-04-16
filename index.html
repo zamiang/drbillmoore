@@ -210,18 +210,22 @@ layout: default
         <div class="border"></div>
         <div class="section-writing">
             <div class="blog-entry">
-                <div class="item-heading large-heading faux-underline-large">3-Steps for Advancing Your 2015 Goals</div>
-                <div class="item-subheading item-description">Now is the best time to reflect on this past year and evaluate what you have learned. Here are three steps to help you clarify the lessons you learned this year while laying the groundwork for advancing your 2015 goals. Carve out 40 minutes in your schedule where you will eliminate distractions. Find a quiet place with a notepad, pen and your 2014 calendar. This may be the best 40-minutes you spend this week! Phone off? Your favorite beverage in place? It’s time to begin.
+                <div class="item-heading large-heading">
+                    <a href="https://www.linkedin.com/pulse/3-great-affirmations-keeping-your-head-game-dr-bill-moore">3 Great Affirmations For Keeping Your Head In The Game</a>
                 </div>
-            </div>
-            <div class="blog-entry">
-                <div class="item-heading large-heading faux-underline-large">3 Affirmations For Keeping Your Head In the Game</div>
-                <div class="item-subheading item-description">Now is the best time to reflect on this past year and evaluate what you have learned. Here are three steps to help you clarify the lessons you learned this year while laying the groundwork for advancing your 2015 goals. Carve out 4g0 minutes in your schedule where you will eliminate distractions. Find a quiet place with a notepad, pen and your 2014 calendar. This may be the best 40-minutes you spend this week! Phone off? Your favorite beverage in place? It’s time to begin.
-                </div>
-            </div>
-            <div class="blog-entry">
-                <div class="item-heading large-heading faux-underline-large ">How To Make The Most From A Mistake</div>
-                <div class="item-subheading item-description">Now is the best time to reflect on this past year and evaluate what you have learned. Here are three steps to help you clarify the lessons you learned this year while laying the groundwork for advancing your 2015 goals. Carve out 40 minutes in your schedule where you will eliminate distractions. Find a quiet place with a notepad, pen and your 2014 calendar. This may be the best 40-minutes you spend this week! Phone off? Your favorite beverage in place? It’s time to begin.
+                <div class="item-subheading item-description">
+                    <p>
+                        <i>“The inner game takes place within the mind of the player and is played against such obstacles as fear, self-doubt, lapses in focus, and limiting concepts or assumptions.”</i> - Timothy Gallway, The Inner Game of Tennis
+                    </p>
+                    <p>
+                        When ever you strive for success you engage in two games simultaneously - the inner game and the outer game. Winning outer game involves achieving external rewards - a promotion, salary increase or professional award.
+                    </p>
+                    <p>
+                        The winning inner game is getting your best out when it counts - minimizing your internal distractions or interferences. Keeping your head in the game and allowing the best you have to come out. Performing your best involves minimizing internal interference and expressing the best that is in you.
+                    </p>
+                    <p>
+                        Now is the best time to reflect on this past year and evaluate what you have learned. Here are three steps to help you clarify the lessons you learned this year while laying the groundwork for advancing your 2015 goals. Carve out 40 minutes in your schedule where you will eliminate distractions. Find a quiet place with a notepad, pen and your 2014 calendar. This may be the best 40-minutes you spend this week! Phone off? Your favorite beverage in place? It’s time to begin.
+                    </p>
                 </div>
             </div>
         </div>
@@ -245,8 +249,7 @@ layout: default
                         </div>
                     </div>
                 </a>
-                <a href="{{ book.url }}" class="item-heading large-heading">{{ book.title }}</a>
-                <div class="item-supheading">{{ book.subtitle }}</div>
+                <a href="{{ book.url }}" class="item-heading large-heading">{{ book.title }}: {{ book.subtitle }}</a>
                 <div class="item-subheading">{{ book.content | markdownify }}</div>
             </div>
             {% endif %}
@@ -264,8 +267,7 @@ layout: default
                         </div>
                     </div>
                 </a>
-                <a href="{{ book.url }}" class="item-heading large-heading">{{ book.title }}</a>
-                <div class="item-supheading">{{ book.subtitle }}</div>
+                <a href="{{ book.url }}" class="item-heading large-heading">{{ book.title }}: {{ book.subtitle }}</a>
                 <div class="item-subheading">{{ book.content | markdownify }}</div>
             </div>
             {% endif %}
