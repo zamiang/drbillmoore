@@ -21,7 +21,7 @@ html to form a website. Simply edit the html and commit the changes.
 has a pretty good description of how best to add new images to the
 site without writing any code. You basically create a new Github Issue
 and upload the image there. Copy the url from the image and use the url for
-something like a new team member's image.
+something like a new book's image.
 
 ## Editing the code
 
@@ -47,6 +47,6 @@ at the [sass](http://sass-lang.com/) documentation and the [compass](http://comp
 ### Editing templates
 
 The main homepage is index.html in the root directory of this
-project. It contains most of the markup for ea1.co but some parts are
+project. It contains most of the markup for drbillmoore.com but some parts are
 configureable such as the title, description, and contact email in
 _config.yml.
