@@ -8,8 +8,8 @@ permalink: /:categories/:title
 production_url: http://www.drbillmoore.com
 contact_email: testing@drbillmoore
 
-google_analytics: todo
-google_site_verification: todo
+google_analytics: "UA-62087264-1"
+google_site_verification: "XIRPLBecm0oPqdOcnXBReTekVqM_n25ZcSr6elVdHCw"
 
 markdown: redcarpet
 redcarpet:
