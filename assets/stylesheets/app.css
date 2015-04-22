@@ -461,6 +461,14 @@ section.section-book {
     section.section-book .book .item-supheading {
       text-align: center;
       margin-bottom: 20px; }
+    section.section-book .book ul {
+      margin: -17px 0px 17px 0px;
+      padding: 0px; }
+      section.section-book .book ul li {
+        text-align: left;
+        list-style: disc;
+        padding: 0px;
+        margin: 0px 0px 0px 23px; }
 
 .book-page-image {
   background-size: cover;
