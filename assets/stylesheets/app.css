@@ -348,7 +348,7 @@ footer {
     width: 30%;
     display: inline-block;
     vertical-align: top;
-    margin: 0px 2% 17px; }
+    margin: 15px 2% 17px; }
     .more-section-group .more-section:first-child {
       margin-left: 0px; }
     .more-section-group .more-section:last-child {
@@ -356,6 +356,8 @@ footer {
     .more-section-group .more-section .item-heading {
       margin-bottom: 5px;
       text-align: center; }
+    .more-section-group .more-section .font-heading, .more-section-group .more-section .border {
+      margin-bottom: 25px; }
 
 .seminars .section-content {
   text-align: center; }
@@ -490,10 +492,11 @@ section.section-book {
     width: 611px;
     margin: 50px auto; }
 .about h3 {
-  margin-top: 30px;
   margin-bottom: 20px;
   font-size: 30px;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  max-width: 580px;
+  margin: 30px auto 20px auto; }
 .about .about-section-group {
   max-width: 720px;
   margin: 30px auto 0px; }
