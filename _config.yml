@@ -1,12 +1,15 @@
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "vendor", "Gemfile", "Gemfile.lock", "Guardfile", "assets.yml"]
 highlighter: pygments
 
+gems:
+  - jekyll-sitemap
+
 title: Dr. Bill Moore - Positive, Focused and Fighting
 description: I am a performance psychology consultant working with business professionals helping both individuals and groups perform at optimal levels when it counts.
 url: http://www.drbillmoore.com
 permalink: /:categories/:title
 production_url: http://www.drbillmoore.com
-contact_email: testing@drbillmoore
+contact_email: bill@mooreperform.com
 
 google_analytics: "UA-62087264-1"
 google_site_verification: "XIRPLBecm0oPqdOcnXBReTekVqM_n25ZcSr6elVdHCw"
