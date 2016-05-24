@@ -1,29 +1,6 @@
-// Import compass modules
-@import "compass/support"
-@import "compass/utilities"
-@import "compass/css3"
+@import "base"
 
-$color: #AF120C
-$dark-color: #A50700
-$light-color: #faf8df
-$gray-color: #CDCDCD
-$small-font-size: 16px
-$base-font-size: 18px
-$large-heading-size: 51px
-$heading-size: 30px
-
-@mixin body-font
-  font-family: "adobe-garamond-pro", Georgia, Cambria, "Times New Roman", Times, serif
-  -webkit-font-smoothing: antialiased
-  -moz-osx-font-smoothing: grayscale
-  font-smoothing: antialiased
-  font-weight: 400
-
-@mixin heading-font
-  font-family: "adobe-garamond-pro", Georgia, Cambria, "Times New Roman", Times, serif
-  font-weight: 800
-
-body
+html, body
   padding: 0px
   margin: 0px
   letter-spacing: 0.01rem
@@ -59,6 +36,7 @@ li
   line-height: 150%
   padding: 5px 0px
   word-wrap: break-word
+
 ul li
   list-style-type: circle
 

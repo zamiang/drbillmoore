@@ -4,36 +4,36 @@ layout: compress
 
 <!DOCTYPE html>
 <html>
-    {% include head.html %}
-    <body>
-        {% include header.html %}
-        <div class="wrapper">
-            <section class="section-books section-book">
-                <div class="section-content">
-                    <div class="book">
-                        <h3>Book</h3>
-                        <div class="border"></div>
-                        <div class="books-container">
-                            <div class="three-d-book">
-                                <div class="book-page-image" style="background-image: url('{{ page.image }}')"></div>
-                            </div>
-                        </div>
-                        <h1>{{ page.title }}</h1>
-                        {% if page.subtitle %}
-                        <div class="item-supheading">{{ page.subtitle }}</div>
-                        {% endif %}
-                        {{ content }}
-                        {% if page.contents %}
-                        <br />
-                        <br />
-                        <h4>Contents</h4>
-                        <div class="contents">{{ page.contents | markdownify }}</div>
-                        {% endif %}
-                    </div>
-                </div>
-            </section>
+  {% include head.html %}
+  <body>
+    {% include header.html %}
+    <div class="wrapper">
+      <section class="section-books section-book">
+        <div class="section-content">
+          <div class="book">
+            <h3>Book</h3>
+            <div class="border"></div>
+            <div class="books-container">
+              <div class="three-d-book">
+                <div class="book-page-image" style="background-image: url('{{ page.image }}')"></div>
+              </div>
+            </div>
+            <h1>{{ page.title }}</h1>
+            {% if page.subtitle %}
+            <div class="item-supheading">{{ page.subtitle }}</div>
+            {% endif %}
+            {{ content }}
+            {% if page.contents %}
+            <br />
+            <br />
+            <h4>Contents</h4>
+            <div class="contents">{{ page.contents | markdownify }}</div>
+            {% endif %}
+          </div>
         </div>
-        {% include footer.html %}
-        {% include ga.html %}
-    </body>
+      </section>
+    </div>
+    {% include footer.html %}
+    {% include ga.html %}
+  </body>
 </html>

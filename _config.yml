@@ -1,8 +1,11 @@
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "vendor", "Gemfile", "Gemfile.lock", "Guardfile", "assets.yml"]
 highlighter: pygments
 
-gems:
-  - jekyll-sitemap
+gems: [jekyll-sitemap, jekyll-compass]
+
+sass:
+  style: :compressed
+  sass_dir: assets/stylesheets
 
 title: Dr. Bill Moore - Positive, Focused and Fighting
 description: I am a performance psychology consultant working with business professionals helping both individuals and groups perform at optimal levels when it counts.
