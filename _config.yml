@@ -1,7 +1,7 @@
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "vendor", "Gemfile", "Gemfile.lock", "Guardfile", "assets.yml"]
 highlighter: pygments
 
-gems: [jekyll-sitemap, jekyll-compass]
+gems: [jekyll-sitemap, octopress-autoprefixer]
 
 sass:
   style: :compressed

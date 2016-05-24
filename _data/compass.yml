@@ -1,9 +1,0 @@
----
-require:
-- jekyll-compass
-project_path: "/Users/zamiang/drbillmoore"
-http_path: "/"
-css_dir: assets/stylesheets
-sass_dir: assets/stylesheets
-images_dir: images
-javascripts_dir: javascripts

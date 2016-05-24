@@ -173,7 +173,7 @@ footer
 
 .large-footer
   .personal-images
-    +clearfix
+    clear: both
 
   .image
     height: 200px
@@ -206,8 +206,8 @@ footer
   .section-content
     .client-section
       text-align: center
-      +column-count(3)
-      +column-width(180px)
+      column-count: 3
+      column-width: 180px
       margin: 0px auto
       a
         color: black
@@ -384,7 +384,7 @@ footer
       margin-left: 2%
 
 .section-do
-  +clearfix
+  clear: both
   padding: 50px 0px 0px
   &:last-child
     padding-top: 0px
@@ -580,14 +580,14 @@ section.section-book
     text-decoration: none
 
 .books-container
-  +perspective(100px)
-  +transform-style(preserve-3d)
+  perspective: 100px
+  transform-style: preserve-3d
   width: 125px
   margin: 25px auto
 
 .three-d-book
   position: relative
-  +transform(perspective(100) rotateY(-3deg))
+  transform: perspective(100) rotateY(-3deg)
   outline: 1px solid transparent
   box-shadow: none
   margin: 0
@@ -614,5 +614,5 @@ section.section-book
   width: 5%
   left: 100%
   background-color: #EFEFEF
-  +box-shadow(inset 0px 0px 5px #aaa)
-  +transform(perspective(100) rotateY(20deg))
+  box-shadow: inset 0px 0px 5px #aaa
+  transform: perspective(100) rotateY(20deg)
