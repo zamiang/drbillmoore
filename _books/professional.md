@@ -73,4 +73,11 @@ contents: "
 
 This book offers a positive approach to helping you prospect at the upper ranges of your potential more consistently. Prospecting is understood as initiating social contact in a sales person’s role. The approach is positive in that it believes you already have what you need to be a successful prospector. The material in this book will help you maximize your prospecting potential and achieve a new level of success.
 
-<div class="book-price item-supheading">$25 - Due out 07/2015</div>
+
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+  <input type="hidden" name="cmd" value="_s-xclick">
+  <input type="hidden" name="hosted_button_id" value="E5DU93TJFR6JL">
+  <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynow_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+  <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+</form>
+<div class="book-price item-supheading">$25</div>
