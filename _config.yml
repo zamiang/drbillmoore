@@ -10,7 +10,7 @@ sass:
 title: Dr. Bill Moore - Positive, Focused and Fighting
 description: I am a performance psychology consultant working with business professionals helping both individuals and groups perform at optimal levels when it counts.
 url: http://www.drbillmoore.com
-permalink: /:categories/:title
+permalink: pretty
 production_url: http://www.drbillmoore.com
 contact_email: bill@mooreperform.com
 
