@@ -2,7 +2,7 @@
 title: Playing Bigger
 subtitle: Strategies for Becoming a High-Performer
 image: /assets/images/playing-bigger.jpg
-type: golf
+type: corporate
 layout: 'book'
 ---
 
