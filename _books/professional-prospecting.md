@@ -1,6 +1,5 @@
 ---
-title: Fearless Prospecting
-subtitle: 'High-Performance Journal for Sales Professionals'
+title: High-Performance Journal for Sales Professionals
 image: /assets/images/high-performance-journal.png
 type: corporate
 layout: 'book'

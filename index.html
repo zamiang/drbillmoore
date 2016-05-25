@@ -282,7 +282,7 @@ layout: default
             </div>
           </div>
         </a>
-        <a href="{{ book.url }}" class="item-heading large-heading">{{ book.title }}: {{ book.subtitle }}</a>
+        <a href="{{ book.url }}" class="item-heading large-heading">{{ book.title }}{% if book.subtitle %}: {{ book.subtitle }}{% endif %}</a>
         <div class="item-subheading">{{ book.content | markdownify }}</div>
       </div>
       {% endif %}
