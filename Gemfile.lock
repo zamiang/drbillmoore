@@ -35,7 +35,7 @@ GEM
     octopress-autoprefixer (2.0.0)
       autoprefixer-rails
       jekyll (~> 3.0)
-    rake (11.1.2)
+    rake (12.3.3)
     rb-fsevent (0.9.7)
     rb-inotify (0.9.7)
       ffi (>= 0.5.0)
